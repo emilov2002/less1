@@ -1,0 +1,22 @@
+@media (max-width: 767px) {
+  .header .nav {
+    display: none;
+  }
+
+  .burger-menu {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+  }
+  .burger-menu__line {
+    width: 30px;
+    height: 2px;
+    background: #f1f1f1;
+    position: relative;
+  }
+}

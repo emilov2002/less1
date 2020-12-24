@@ -1,0 +1,173 @@
+.footer {
+  padding: 70px 0 30px;
+  background: #F6F6F8;
+
+  .lined {
+    margin-top: 70px;
+    border-top: 1px solid #E0E0E0;
+  }
+.footer-texts{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+
+  /* grey */
+
+  color: #999999;
+  max-width: 386px;
+  margin: 30px auto;
+
+
+}
+
+  .footer-container {
+    display: flex;
+    margin-left: 50px;
+
+
+    .footer-phone {
+      max-width: 242px;
+
+      &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 14px;
+
+        color: #000000;
+        margin-bottom: 35px;
+      }
+
+      &__email {
+        display: flex;
+        margin-bottom: 30px;
+        max-height: 14px;
+
+        .email {
+          margin-right: 16px;
+        }
+
+        .footer-text {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 14px;
+
+          /* grey */
+
+          color: #999999;
+
+        }
+
+      }
+
+    }
+
+    .footer-line {
+      padding-left: 60px;
+      max-width: 242px;
+
+      &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 14px;
+
+        color: #000000;
+        margin-bottom: 35px;
+      }
+
+      &__one {
+        display: flex;
+        max-height: 14px;
+        margin-top: 30px;
+
+        .footer-text {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 14px;
+
+          /* grey */
+
+          color: #999999;
+          margin-left: 12px;
+        }
+
+      }
+
+      &__two {
+        display: flex;
+      }
+    }
+
+    .footer-project {
+      max-width: 242px;
+      padding-left: 80px;
+
+      &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 14px;
+
+        color: #000000;
+        margin-bottom: 35px;
+      }
+
+      &__projects {
+        display: flex;
+        max-height: 14px;
+        margin-top: 30px;
+
+        .project-text {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 14px;
+
+          /* grey */
+
+          color: #999999;
+          margin-left: 12px;
+        }
+      }
+    }
+
+    .footer-services {
+      max-width: 242px;
+
+      padding-left: 70px;
+
+      &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 14px;
+
+        color: #000000;
+        margin-bottom: 35px;
+      }
+
+      &__projects {
+        display: flex;
+        max-height: 14px;
+        margin-top: 30px;
+
+        .services-text {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 14px;
+
+          /* grey */
+
+          color: #999999;
+          margin-left: 12px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+.frame {
+  padding: 70px 0 85px;
+  .line {
+    border-top: 1px solid #E0E0E0;
+  }
+
+  .email-container {
+    padding: 85px 0 85px;
+
+    &__title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+
+      color: #000000;
+      max-width: 350px;
+      width: 100%;
+      max-height: 17px;
+      margin: 0 auto 20px;
+
+    }
+
+    &__subtitle {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: center;
+
+      /* grey */
+
+      color: #999999;
+      margin-bottom: 30px;
+    }
+
+
+    .email-container-email {
+      display: flex;
+      margin-bottom: 30px;
+
+      justify-content: center;
+
+      &__two {
+        background: #4985FF;
+        display: block;
+        width: 190px;
+        height: 45px;
+        border-radius: 0 30px 30px 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 45px;
+        text-align: center;
+        text-decoration: none;
+        color: #FFFFFF;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+
+      &__one {
+        border-radius: 30px 0 0 30px;
+        width: 299px;
+        height: 45px;
+        border-color: #fff0f3;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 45px;
+        padding-left: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        max-width: 386px;
+        /* grey */
+
+
+      }
+    }
+
+    &__text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 21px;
+      text-align: center;
+
+      /* grey */
+
+      color: #999999;
+    }
+
+  }
+}

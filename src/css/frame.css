@@ -1,0 +1,23 @@
+.frame {
+  padding: 70px 0 85px;
+}
+.frame .frame-container .frame-container__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 53px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.frame .frame-container__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.frame .frame-container__img {
+  border-radius: 40px;
+}

@@ -1,0 +1,7 @@
+.all-services {
+  padding: 100px 0 85px;
+}
+.all-services .flex__container {
+  display: flex;
+  justify-content: space-between;
+}
